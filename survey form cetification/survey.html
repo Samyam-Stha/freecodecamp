@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>clone</title>
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+
+    <div>
+      <p id="description">
+        Thank you for taking the time to help us improve the platform
+      </p>
+      <hr>
+    </div>
+    <div class="form-container">
+      <form id="survey-form">
+        <div>
+          <label id="name-label">
+            <p>
+                Name:
+            </p>
+            <input id="name" type="text" placeholder="Name" required />
+          </label>
+        </div>
+
+        <div>
+          <label id="email-label">
+            <p>
+                Email:
+            </p><input id="email" type="email" placeholder="Email" required />
+          </label>
+        </div>
+
+        <div>
+          <label id="number-label">
+            <p>
+                Number:
+            </p> 
+            <input
+              id="number"
+              type="number"
+              min="13"
+              max="100"
+              placeholder="Number" />
+          </label>
+        </div>
+        
+          
+            <div>
+                <p>
+                    Choose:
+                </p>
+            <select id="dropdown">
+                
+              <option>option 1</option>
+              <option>option 2</option>
+            </select>
+            </div>
+
+            <div>
+                <p>
+                    Choose:
+                </p>
+              <input type="radio" value="rad" name="one" />Option 1
+              <input type="radio" value="rad" name="one" /> Option 2
+            </div>
+
+            <div>
+                <p>
+                    Choose:
+                </p>
+              <input type="checkbox" value="check" /> Option 1
+              <input type="checkbox" value="check" /> Option 2
+            </div>
+            <div>
+            <p>
+                About me:
+            </p>
+              <textarea rows="3" cols="30"></textarea>
+            </div>
+            <button id="submit">Submit</button>
+          
+        
+      </form>
+    </div>
+  </body>
+</html>
