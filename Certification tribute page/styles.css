@@ -1,0 +1,60 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#main {
+  margin: 25px;
+  padding: 25px;
+  background-color: rgb(238, 238, 238);
+  box-shadow: 0px 0px 10px black;
+
+  border-radius: 5px;
+}
+
+#title {
+  text-align: center;
+  padding: 15px;
+}
+
+#image {
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  max-width: 100%;
+}
+img {
+  display: block;
+  height: auto;
+  margin: auto;
+  align-self: center;
+  object-fit: cover;
+}
+
+.img-box {
+  width: 65%;
+  margin: auto;
+}
+#img-div {
+  display: block;
+  text-align: center;
+
+  padding: 25px;
+  background-color: white;
+  margin: auto;
+}
+
+#tribute-info {
+  margin: 25px auto;
+  display: block;
+  font-size: 20px;
+
+  width: 75%;
+  text-align:justify;
+}
+
+#tribute-info ul li {
+  margin-bottom: 20px;
+  text-align: justify;
+}
